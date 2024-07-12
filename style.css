@@ -188,7 +188,8 @@ header
    padding: 20px 20px;
    background-color: white;
    border-radius: 23px;
-   width: 505px;
+   width:90%;
+   max-width: 505px;
    /* width: 80%; */
 }
 #about h1
@@ -224,7 +225,8 @@ header
 {
     background-color: white;
     border-radius: 23px;
-    width: 505px;
+    width:90%;
+    max-width: 505px;
     /* width:80%; */
     padding: 20px 10px;
 }
@@ -314,7 +316,8 @@ header
     gap: 2rem;
     margin-bottom: 2rem;
     background-color: white;
-    width: 505px;
+    width:90%;
+    max-width: 505px;
     /* width: 80%; */
     padding: 40px 20px;
     padding-top: 20px;
@@ -533,68 +536,14 @@ footer
 
 @media all and (max-width: 550px) {
   
-    body{
+    /* body{
         background-color: antiquewhite;
-    }
-
-    .header-section-container
-    {
-        width:100%;
-    }
-
-    .header-section
-    {
-        width:100%;
-    }
-
-    #about
-    {
-        width:90%;
-    }
-
-    #Mail
-    {
-        width:90%;
-    }
-
-    .gallery 
-    {
-        width:90%;
-    }
-
+    } */
     .gallery img
-    {
-        width:80%;
-    }
-
-    #Testimonial
-    {
-        width:90%;
-    }
-
-    .carousel-inner
-    {
-        width:90%;
-    }
-
-    .carousel .carousel-item
-    {
-        width:90%;
-        border:2px solid red;
-    }
-
-    #Product-Container
-    {
-        width:90%;
-    }
-
-    .innerBox
     {
         width:80%;
     }
 }
 
-
-/* Media queries for screens with max width of 500px */
 
     
