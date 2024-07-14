@@ -26,7 +26,8 @@ header
 .header-section-container
 {
     /* border:1px solid red; */
-    width:500px;
+    max-width: 500px;
+    width:90%;
     margin: 0 auto;
     margin-top: 20px;
     height: 640px;
@@ -65,16 +66,16 @@ header
     z-index: 10;
     right: 0px;
     bottom: -193px;
-    width: 500px;
+    /* max-width: 500px; */
 
-    /* width: 100%; */
+    width: 100%;
 }
 
 
 .st1
 {
     /* border:2px solid yellow; */
-    width: 490px;
+    max-width: 490px;
     height: auto;
     fill:#061244;
     position: absolute;
@@ -93,7 +94,7 @@ header
    top:400px;
    color: white;
    /* border:1px solid yellow; */
-   width:300px
+   max-width:300px
 }
 
 .content-section-container h1
@@ -407,7 +408,7 @@ header
    border-radius: 23px;
    padding: 30px 50px;
    background-color: white;
-   width:510px;
+   max-width:510px;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -432,12 +433,13 @@ header
 
 #Product-Container
 {
-   width:500px;
+   max-width:500px;
    background-color: white;
    /* border:2px solid yellow; */
    border-radius: 23px;
    padding: 50px 0px;
    padding-top: 20px;
+   overflow: hidden;
 }
 
 #Product
@@ -455,7 +457,7 @@ header
    /* border: 1px solid green; */
    display: flex;
    justify-content: center;
-   gap: 45px;
+   gap: 0px;
    margin-bottom: 45px;
    border:1px solid red;
 }
@@ -463,7 +465,7 @@ header
 .carousel-inner
 {
     /* background-color: white; */
-    width:500px;
+    max-width:500px;
 }
 
 .innerBox
@@ -536,12 +538,14 @@ footer
 
 @media all and (max-width: 550px) {
   
-    /* body{
-        background-color: antiquewhite;
-    } */
+    
     .gallery img
     {
         width:80%;
+    }
+
+    .header-section svg{
+      bottom: -71px;
     }
 }
 
